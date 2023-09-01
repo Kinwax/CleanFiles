@@ -1,0 +1,8 @@
+# -*- coding: gbk -*-
+
+import os
+import sys
+import subprocess
+
+#  π”√PyInstaller±‡“ÎPythonΩ≈±æ
+subprocess.run(["pyinstaller", "--onefile","--icon=cfs.ico","--clean","CleanFiles.py"])
